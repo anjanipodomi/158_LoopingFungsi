@@ -14,7 +14,13 @@ int main()
 	cout << "Nilai awal : " << x << endl;
 
 
-	
+	while(x> 4)
+	{
+		cout << "perulangan while" << endl;
+		x = rand() % 10;
+
+		cout << "nilai x: " << x << endl;
+	}
 
 }
 
